@@ -66,7 +66,8 @@ class Ui_Dialog(object):
         self.lineEdit_3.setFont(font)
         self.lineEdit_3.setObjectName("lineEdit_3")
         self.toolButton = QtWidgets.QToolButton(Dialog)
-        self.toolButton.setGeometry(QtCore.QRect(680, 220, 25, 19))
+        self.toolButton.setEnabled(False)
+        self.toolButton.setGeometry(QtCore.QRect(730, 520, 21, 19))
         self.toolButton.setIcon(icon)
         self.toolButton.setObjectName("toolButton")
 
@@ -74,6 +75,7 @@ class Ui_Dialog(object):
         self.pushButton.clicked.connect(Dialog.mybutton_clicked)
         self.pushButton_2.clicked.connect(Dialog.mybutton2_clicked)
         self.pushButton_3.clicked.connect(Dialog.mybutton3_clicked)
+        self.pushButton_4.clicked.connect(Dialog.mybutton4_clicked)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):

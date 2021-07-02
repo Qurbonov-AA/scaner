@@ -232,10 +232,27 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>mybutton4_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>374</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>mybutton_clicked()</slot>
   <slot>mybutton2_clicked()</slot>
   <slot>mybutton3_clicked()</slot>
+  <slot>mybutton4_clicked()</slot>
  </slots>
 </ui>
